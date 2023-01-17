@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #0B5345;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.subpadre-1 {
+    background-color: #17202A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div > img {
+    border-radius: 100px;
+}
+
+.imagen {
+    margin-left: 30px;
+    flex: 1 50px;
+}
+
+.name {
+    margin-left: 40px;
+    flex: 2 100px;
+}
+
+.info {
+    flex: 1 50px;
+}
+
+.name > h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 26px;
+    color: white;
+}
+
+div > div {
+    margin: 25px;
+}
+
+div > a {
+    padding: 5px;
+    color: white;
+}
+
+i {
+    margin-right: 10px;
+}
+
+section > div {
+    margin: 10px;
+}
+
+.subpadre-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acerca-de-mi {
+    background-color: #D7DBDD;
+    border-radius: 25px;
+    min-width: 500px;
+    padding: 50px;
+    flex: 1;
+}
+
+.expe-labor {
+    background-color: #D7DBDD;
+    border-radius: 25px;
+    min-width: 500px;
+    padding: 50px;
+    flex: 1;
+}
+
+.apt {
+    background-color: #D7DBDD;
+    border-radius: 25px;
+    min-width: 500px;
+    padding: 50px;
+    flex: 1;
+}
+
+.form-acad {
+    background-color: #D7DBDD;
+    border-radius: 25px;
+    min-width: 500px;
+    padding: 50px;
+    flex: 1;
+}
+
+ul {
+    margin: 20px 50px;
+}
+
+ul > li {
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+td {
+    font-size: 18px;
+    width: 150px;
+}
+
+tr {
+    height: 40px;
+}
